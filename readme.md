@@ -1,4 +1,4 @@
-# ============= 4 Pillars of Object oriented programming ==================
+# 4 Pillars of Object oriented programming 
 
 # Encapsulation
 * In object-oriented programming, encapsulation is the process of bundling the data (such as class properties) and logic (such as  class methods) into a single unit (like a class), while restricting direct access to some properties or methods. It helps us to write maintainable and readable & scalable code. it prevents pollution in the global environment Because all unnecessary variables and methods only lives under that one unit (class).
@@ -12,7 +12,7 @@
 # Polymorphism
 * In object-oriented programming, polymorphism is a practice where different objects can respond to the same method call in their own unique way. It helps us to write flexible and reusable code because the objects can reuses the methods of their parents, but they respond in their own unique way, using a single unified method.
 
-# ============= `this` keyword in JavaScript ==================
+# `this` keyword in JavaScript 
  * The value of `this` is determined by how the function is called in different modes of JS scripts Such as `strict mode` and normal mode.
  * In a normal JavaScript function, (not an arrow function), `this` point towards the `window` object.
  * In an arrow function, `this` point to `window` object.
@@ -21,12 +21,12 @@
  * In an event Listener where the event handler is a normal function, `this` point towards the `html element` who receives the event.
  * In an event Listener where the event handler is an arrow function, `this` point towards `window` object.
 
- # ============= Value of `this` in strict mode JS scripts ==================
+ # Value of `this` in strict mode JS scripts
  * In Strict mode JS scripts where we specially write `type="module"` into our HTML script tag or we write `"use strict";` at the very top of a script or a function definition, the Value of `this` is becomes undefined.
  * In the same mode, when we use normal functions in event listener calls, the value of `this` becomes that `HTML element` which receives that event.
  * In the same mode, when we define a method in an object or in a class, the value of `this` becomes that `object`.
 
-# ============= thing we should know about 'Classes' in JS ==================
+# thing we should know about 'Classes' in JS
 * `new` keyword 
     We use the `new` keyword to create an instance of an object or a class.
     Under the hood, it executes the four-step process:
