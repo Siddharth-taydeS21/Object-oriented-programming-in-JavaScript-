@@ -1,16 +1,16 @@
 # ============= 4 Pillars of Object oriented programming ==================
 
 # Encapsulation
-    In object-oriented programming, encapsulation is the process of bundling the data (such as class properties) and logic (such as class methods) into a single unit (like a class), while restricting direct access to some properties or methods. It helps us to write maintainable and readable & scalable code. it prevents pollution in the global environment Because all unnecessary variables and methods only lives under that one unit (class).
+* In object-oriented programming, encapsulation is the process of bundling the data (such as class properties) and logic (such as  class methods) into a single unit (like a class), while restricting direct access to some properties or methods. It helps us to write maintainable and readable & scalable code. it prevents pollution in the global environment Because all unnecessary variables and methods only lives under that one unit (class).
     
 # Abstraction
-    In object-oriented programming, abstraction is the process where we hide the complex logic, such as methods and data properties, using private fields, and we only expose the simple instance, interface of a method. It reduces the overall complexity of our code and helps us to keep it readable and maintainable.
+* In object-oriented programming, abstraction is the process where we hide the complex logic, such as methods and data properties, using private fields, and we only expose the simple instance, interface of a method. It reduces the overall complexity of our code and helps us to keep it readable and maintainable.
 
 # Inheritance
-    In object-oriented programming, inheritance is the process where a child class can inherit the properties, methods, and behavior of its parent class. In modern JavaScript programming, we can implement inheritance using the `extends` and `super` keywords. It promotes the reusability and flexibility of our code and also prevents duplicate code writing.
+* In object-oriented programming, inheritance is the process where a child class can inherit the properties, methods, and behavior of its parent class. In modern JavaScript programming, we can implement inheritance using the `extends` and `super` keywords. It promotes the reusability and flexibility of our code and also prevents duplicate code writing.
 
 # Polymorphism
-    In object-oriented programming, polymorphism is a practice where different objects can respond to the same method call in their own unique way. It helps us to write flexible and reusable code because the objects can reuses the methods of their parents, but they respond in their own unique way, using a single unified method.
+* In object-oriented programming, polymorphism is a practice where different objects can respond to the same method call in their own unique way. It helps us to write flexible and reusable code because the objects can reuses the methods of their parents, but they respond in their own unique way, using a single unified method.
 
 # ============= `this` keyword in JavaScript ==================
  * The value of `this` is determined by how the function is called in different modes of JS scripts Such as `strict mode` and normal mode.

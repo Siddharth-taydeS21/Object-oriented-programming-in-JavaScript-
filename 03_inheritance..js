@@ -54,15 +54,3 @@ class employee extends NewGenerationHuman {
 }
 
 const candidate = new employee('Siddharth', 'Tayde', 21, 'Backed Dev.', 'AI integrated Backend Apps', 'AI labs PVT. LTD') 
-
-class Demo {
-    constructor(a, b){
-        this.a = a
-        this.b = b
-    }
-    static justAValue = 'hello world'
-}
-
-console.log(Demo.justAValue)
-
-const newDemo = new Demo('hi', 'hello')

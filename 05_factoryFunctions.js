@@ -1,6 +1,6 @@
 // Factory functions are simple functions which return new objects. 
 // They allow us to write different instances of objects without needing to write duplicate code. 
-// The reason behind calling it a factory function is that this functions can produces multiple copies on an object form a blueprint, just how the factory works.  
+// The reason behind calling it a factory function is that this functions can produces multiple copies of an object form a blueprint, just how the factory works.  
 // (It's not considered as a class or constructor method)
 
 const createUser = function(userName, age, city){
